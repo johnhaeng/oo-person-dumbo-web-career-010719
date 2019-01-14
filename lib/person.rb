@@ -11,7 +11,11 @@ class Person
   end
 
   def clean?
-    if @hygiene >
+    if @hygiene > 7 && @hygiene <= 10
+    
+    else
+      
+    end
   end
   
   def happy?
