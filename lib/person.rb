@@ -9,6 +9,15 @@ class Person
     @happiness = 8
     @hygiene = 8
   end
+  
+  def happiness
+    if @happiness > 10
+      @happiness = 10
+    elsif @happiness < 0
+      @happiness = 0
+    end
+      @happiness
+  end
 
   def clean?
     if @hygiene > 7 && @hygiene <= 10
