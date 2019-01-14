@@ -71,8 +71,10 @@ class Person
     if topic == 'politics'
       "blah blah partisan blah lobbyist"
     elsif topic == 'weather'
-    
+      "blah blah sun blah rain"
     else
+      
+    end
   end
 end
 
