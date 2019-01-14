@@ -73,7 +73,7 @@ class Person
     elsif topic == 'weather'
       "blah blah sun blah rain"
     else
-      
+      "blah blah blah blah blah"
     end
   end
 end
