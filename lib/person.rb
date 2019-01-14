@@ -11,8 +11,12 @@ class Person
   end
 
   def clean?
-    
+    if @hygiene >
   end
   
+  def happy?
+    if @happiness
+      
+  end
 end
 
