@@ -12,15 +12,18 @@ class Person
 
   def clean?
     if @hygiene > 7 && @hygiene <= 10
-    
-    else
-      
+      true
+    elsif @hygiene <= 7 && hygiene > 0
+      false
     end
   end
   
   def happy?
-    if @happiness
-      
+    if @happiness > 7 && @happiness <= 10 
+      true
+    elsif @happiness <= 7 && @happiness > 0
+      false
+    end
   end
 end
 
