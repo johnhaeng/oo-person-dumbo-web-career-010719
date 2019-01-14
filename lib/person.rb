@@ -54,5 +54,7 @@ class Person
     @hygiene += 4
     "♪ Rub-a-dub just relaxing in the tub ♫"
   end
+  
+  def work_out
 end
 
