@@ -1,6 +1,6 @@
 # your code goes here
 class Person
-  attr_accessor :happienss, :hygiene, :bank_account
+  attr_accessor :happiness, :hygiene, :bank_account
   
   def initialize(name)
     @name = name
