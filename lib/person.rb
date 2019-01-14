@@ -19,6 +19,16 @@ class Person
       @happiness
   end
 
+  def hygiene
+    if @hygiene > 10
+      @hygiene = 10
+    elsif @hygiene < 0
+      @hygiene = 0
+    end
+      @hygiene
+  end
+
+
   def clean?
     if @hygiene > 7 && @hygiene <= 10
       true
