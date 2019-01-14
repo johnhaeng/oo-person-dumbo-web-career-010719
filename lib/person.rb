@@ -57,7 +57,7 @@ class Person
   
   def work_out
     @happiness += 2
-    
+    "♪ another one bites the dust ♫"
   end
 end
 
